@@ -26,6 +26,11 @@ ul {
   transition: 1s;
 }
 
+.social-icons:hover {
+  /* position: fixed; */
+  margin-left: 10px;
+}
+
 .social-icons a:hover{
   color: rgb(53, 100, 51);
 }
@@ -49,6 +54,13 @@ ul {
   position: fixed;
   left: 95rem;
   bottom: 100px;
+
+  transition: 1s;
+}
+
+.email:hover {
+  color: rgb(53, 100, 51);
+  margin-bottom: 10px;
 }
 
 .email::after {
