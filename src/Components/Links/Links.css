@@ -3,7 +3,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* transform: rotate(90deg); */
   position: fixed;
   left: 6.5rem;
   bottom: 0px;
@@ -21,14 +20,16 @@ ul {
 .social-icons a, li{
   margin-top: 1rem;
   text-decoration: none;
+  position: relative;
 
   color: rgb(184, 184, 184);
   transition: 1s;
+  top: 0;
 }
 
 .social-icons:hover {
-  /* position: fixed; */
-  margin-left: 10px;
+  transition: 1s;
+  top: -10px;
 }
 
 .social-icons a:hover{
