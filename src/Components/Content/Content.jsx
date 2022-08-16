@@ -3,21 +3,15 @@ import "./Content.css"
 
 const Content = () => {
     return ( <main className='main'>
-        <h3>Hello, my name is</h3>
-        <h1>Denis Junior</h1>
-        <h1>maybe I'm crazy</h1>
-        <h1>maybe not</h1>
-        <h1>who knows</h1>
-        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dignissimos ea officiis ducimus facere rem, possimus ad quia, hic porro fugit voluptas itaque? Vel repellat nulla perferendis facere, ea laudantium.</h1>
-        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dignissimos ea officiis ducimus facere rem, possimus ad quia, hic porro fugit voluptas itaque? Vel repellat nulla perferendis facere, ea laudantium.</h1>
-        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dignissimos ea officiis ducimus facere rem, possimus ad quia, hic porro fugit voluptas itaque? Vel repellat nulla perferendis facere, ea laudantium.</h1>
-        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dignissimos ea officiis ducimus facere rem, possimus ad quia, hic porro fugit voluptas itaque? Vel repellat nulla perferendis facere, ea laudantium.</h1>
-        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dignissimos ea officiis ducimus facere rem, possimus ad quia, hic porro fugit voluptas itaque? Vel repellat nulla perferendis facere, ea laudantium.</h1>
-        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dignissimos ea officiis ducimus facere rem, possimus ad quia, hic porro fugit voluptas itaque? Vel repellat nulla perferendis facere, ea laudantium.</h1>
-        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dignissimos ea officiis ducimus facere rem, possimus ad quia, hic porro fugit voluptas itaque? Vel repellat nulla perferendis facere, ea laudantium.</h1>
-        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dignissimos ea officiis ducimus facere rem, possimus ad quia, hic porro fugit voluptas itaque? Vel repellat nulla perferendis facere, ea laudantium.</h1>
-        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dignissimos ea officiis ducimus facere rem, possimus ad quia, hic porro fugit voluptas itaque? Vel repellat nulla perferendis facere, ea laudantium.</h1>
-        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime dignissimos ea officiis ducimus facere rem, possimus ad quia, hic porro fugit voluptas itaque? Vel repellat nulla perferendis facere, ea laudantium.</h1>
+        <div className="info">
+            <h3>Hello, my name is</h3>
+            <h1>Denis Junior.</h1>
+            <h1>I build nice applications for web.</h1>
+            <div className="description">
+            <p>I’m a software engineer looking for a job in junior position. I'm currently focused on learning more about web technologies like typescript and react.</p>
+            </div>
+            <a className='discover-me' href='#about'>discover me</a>
+        </div>
     </main> );
 }
  

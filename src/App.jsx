@@ -8,6 +8,10 @@ function App() {
     <div>
       <Navbar/>
       <Content/>
+      <div className="teste">
+        <h2>sdfjl</h2>
+        <h2>sdfjl</h2>
+      </div>
       <Links/>
     </div>
   );

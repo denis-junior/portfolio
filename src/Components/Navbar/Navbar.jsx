@@ -2,6 +2,13 @@ import React from "react";
 import "./Navbar.css"
 
 const Navbar = () => {
+  
+  const changeBackground = () => {
+    console.log(window.scrollY)
+  }
+  
+  window.addEventListener('scroll', changeBackground)
+
   return (
     <div className="navbar">
       <div className="logo-img">logo here</div>
