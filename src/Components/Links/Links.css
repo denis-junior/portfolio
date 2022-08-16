@@ -33,7 +33,7 @@ ul {
 }
 
 .social-icons a:hover{
-  color: rgb(53, 100, 51);
+  color: #7B7554;
 }
 
 .line {
@@ -60,7 +60,7 @@ ul {
 }
 
 .email:hover {
-  color: rgb(53, 100, 51);
+  color: #7B7554;
   margin-bottom: 10px;
 }
 
