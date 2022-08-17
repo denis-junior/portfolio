@@ -1,18 +1,16 @@
 import Links from "./Components/Links/Links";
-import Navbar from "./Components/Navbar/Navbar"
-import './App.css'
-import Content from "./Components/Content/Content";
+import Navbar from "./Components/Navbar/Navbar";
+import Info from "./Components/Info/Info";
+import About from "./Components/About/About";
+import "./App.css";
 
 function App() {
   return (
     <div>
-      <Navbar/>
-      <Content/>
-      <div className="teste">
-        <h2>sdfjl</h2>
-        <h2>sdfjl</h2>
-      </div>
-      <Links/>
+      <Navbar />
+      <Info />
+      <About />
+      <Links />
     </div>
   );
 }

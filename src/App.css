@@ -2,14 +2,23 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+      /* font-family: "Roboto", sans-serif; */
+
 }
 
 body{
     background-color: #292F36;
-
+    font-family: "Roboto", sans-serif;
 }
 
-.teste {
-    background-color: blueviolet;
+.main {
+    max-width: 1000px;
     height: 100vh;
-}
+    margin: 0 auto;
+    /* background-color: beige; */
+    display: flex;
+    color: #9e9897;
+  
+    /* justify-content: center; */
+    /* align-items: center; */
+  }

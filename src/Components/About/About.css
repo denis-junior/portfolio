@@ -1,0 +1,16 @@
+.about {
+    /* background-color: rgba(0, 255, 255, 0.096); */
+    flex-direction: column;
+
+    justify-content: center;
+}
+
+#about {
+    /* padding-left: 3rem; */
+    margin-bottom: 2.7rem;
+}
+
+.description {
+    margin-bottom: 1.80rem;
+    width: 100%;
+}
