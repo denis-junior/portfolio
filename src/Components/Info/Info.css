@@ -46,7 +46,7 @@
   padding: 1rem 0;
   color: #7b7554;
   font-weight: 600;
-  transition: 0.7s;
+  transition: 0.7s ease;
 }
 
 .discover-me:hover {

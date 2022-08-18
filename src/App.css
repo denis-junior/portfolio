@@ -1,24 +1,26 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-      /* font-family: "Roboto", sans-serif; */
-
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-color: #292F36;
-    font-family: "Roboto", sans-serif;
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #292f36;
+  font-family: "Roboto", sans-serif;
 }
 
 .main {
-    max-width: 1000px;
-    height: 100vh;
-    margin: 0 auto;
-    /* background-color: beige; */
-    display: flex;
-    color: #9e9897;
-  
-    /* justify-content: center; */
-    /* align-items: center; */
-  }
+  max-width: 1000px;
+  height: 100vh;
+  margin: 0 auto;
+  /* background-color: beige; */
+  display: flex;
+  color: #9e9897;
+
+  /* justify-content: center; */
+  /* align-items: center; */
+}
