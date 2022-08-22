@@ -6,33 +6,12 @@ import "./Projects.css"
 const Projects = () => {
     return (   <div className="main projects" id="projects">
     <h1>
-      Projects <hr />
+      Projects 
     </h1>
 
-    <p className="description">
-      Here are a few projects that I’ve been working with recently:
+    <p className="">
+      Here are a few projects I’ve been working with recently:
     </p>
-    <ul className="technologies-ul">
-      <li className="technologies-li">        
-        <FontAwesomeIcon icon={faCode} className="technologies-li-icon" /> &nbsp; React.JS
-      </li>
-      <li className="technologies-li">
-        
-        <FontAwesomeIcon icon={faCode} className="technologies-li-icon" /> &nbsp; Node.JS
-      </li>
-      <li className="technologies-li">
-        
-        <FontAwesomeIcon icon={faCode} className="technologies-li-icon" /> &nbsp; Express.JS
-      </li>
-      <li className="technologies-li">
-        
-        <FontAwesomeIcon icon={faCode} className="technologies-li-icon" /> &nbsp; Typescript
-      </li>
-      <li className="technologies-li">
-        
-        <FontAwesomeIcon icon={faCode} className="technologies-li-icon" /> &nbsp; MySQL
-      </li>
-    </ul>
   </div>
   )
 }
