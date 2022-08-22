@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../Button/Button";
 import "./Info.css";
 
 const Content = () => {
@@ -15,9 +16,7 @@ const Content = () => {
             typescript and react.
           </p>
         </div>
-        <a className="discover-me" href="#about">
-          discover me
-        </a>
+        <Button link={"#about"} >Discover me</Button>
       </div>
     </main>
   );
