@@ -1,3 +1,7 @@
-#projects{
-    background-color: red;
+.projects{
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: antiquewhite;
+
 }
