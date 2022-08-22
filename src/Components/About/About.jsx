@@ -5,8 +5,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const About = () => {
   return (
-    <div className="main about">
-      <h1 id="about">
+    <div className="main about" id="about">
+      <h1>
         About me <hr />
       </h1>
       <p className="description">
