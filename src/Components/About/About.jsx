@@ -19,7 +19,12 @@ const About = () => {
 
       <p className="description">
         As for professional experience, I have already worked in a technology{" "}
-        <a href="https://www.segup.pa.gov.br" className="last-job-link-a" target="_blank" rel="noreferrer">
+        <a
+          href="https://www.segup.pa.gov.br"
+          className="last-job-link-a"
+          target="_blank"
+          rel="noreferrer"
+        >
           department of the government of my city
         </a>
         , where I was able to learn more about the technologies I use today,
@@ -31,24 +36,28 @@ const About = () => {
       </p>
       <ul className="technologies-ul">
         <li className="technologies-li">
-          
-          <FontAwesomeIcon icon={faCode} className="technologies-li-icon" /> &nbsp; React.JS
+          <FontAwesomeIcon icon={faCode} className="technologies-li-icon" />{" "}
+          &nbsp; React.JS
         </li>
         <li className="technologies-li">
-          
-          <FontAwesomeIcon icon={faCode} className="technologies-li-icon" /> &nbsp; Node.JS
+          <FontAwesomeIcon icon={faCode} className="technologies-li-icon" />{" "}
+          &nbsp; Node.JS
         </li>
         <li className="technologies-li">
-          
-          <FontAwesomeIcon icon={faCode} className="technologies-li-icon" /> &nbsp; Express.JS
+          <FontAwesomeIcon icon={faCode} className="technologies-li-icon" />{" "}
+          &nbsp; Express.JS
         </li>
         <li className="technologies-li">
-          
-          <FontAwesomeIcon icon={faCode} className="technologies-li-icon" /> &nbsp; Typescript
+          <FontAwesomeIcon icon={faCode} className="technologies-li-icon" />{" "}
+          &nbsp; Typescript
         </li>
         <li className="technologies-li">
-          
-          <FontAwesomeIcon icon={faCode} className="technologies-li-icon" /> &nbsp; MySQL
+          <FontAwesomeIcon icon={faCode} className="technologies-li-icon" />{" "}
+          &nbsp; MySQL
+        </li>
+        <li className="technologies-li">
+          <FontAwesomeIcon icon={faCode} className="technologies-li-icon" />{" "}
+          &nbsp; Sequelize
         </li>
       </ul>
     </div>

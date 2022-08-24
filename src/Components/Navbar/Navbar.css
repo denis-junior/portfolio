@@ -9,7 +9,7 @@
   align-items: center;
   justify-content: space-between;
 
-  position: fixed;
+  /* position: fixed; */
 }
 
 .box-links {

@@ -33,6 +33,10 @@
   transition: 0.3s;
 }
 
+.github-link {
+  color: #9e9897;
+}
+
 .github-link:hover {
   color: #7b7554;
   cursor: pointer;
@@ -52,9 +56,12 @@
 
 .footer-techs {
   /* background-color: bisque; */
+  display: flex;
 }
 
 .tech-name {
   color: #7b7554;
   font-size: 0.95rem;
+
+  margin-right: 1rem;
 }
