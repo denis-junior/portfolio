@@ -17,10 +17,49 @@ body {
   max-width: 1000px;
   height: 100vh;
   margin: 0 auto;
-  /* background-color: beige; */
   display: flex;
   color: #9e9897;
+}
 
-  /* justify-content: center; */
-  /* align-items: center; */
+
+@media (max-width: 1700px) {
+  .email {
+    left: 88rem;
+  }
+}
+
+@media (max-width: 1600px) {
+  .email {
+    left: 80rem;
+  }
+}
+
+@media (max-width: 1500px) {
+  .email {
+    left: 75rem;
+  }
+
+  .accounts {
+    left: 4rem;
+  }
+}
+
+@media (max-width: 1400px) {
+  .accounts {
+    left: 3rem;
+  }
+
+  .email {
+    left: 70rem;
+  }
+}
+
+@media (max-width: 1300px) {
+  .accounts {
+    left: 1rem;
+  }
+
+  .email {
+    left: 66rem;
+  }
 }
