@@ -57,6 +57,8 @@
 .footer-techs {
   /* background-color: bisque; */
   display: flex;
+  position: relative;
+  bottom: 0px;
 }
 
 .tech-name {

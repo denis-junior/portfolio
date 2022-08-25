@@ -16,7 +16,7 @@ const Projects = () => {
           link={"https://github.com/denis-junior/todoTaskWithReactAndBootstrap"}
           title={"To-do Task"}
           description={
-            "Application made with bootstrap and react to be presented to college freshmen."
+            "Basic application made with bootstrap and react to be presented to college freshmen in the freshman's week."
           }
           technologies={["bootstrap", "react"]}
         />
