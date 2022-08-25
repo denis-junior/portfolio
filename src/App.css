@@ -67,16 +67,36 @@ body {
   .main {
     max-width: 800px;
   }
+
+  .info h1 {
+    font-size: 3.4rem;
+  }
 }
 
 @media (max-width: 1200px) {
   .main {
     max-width: 700px;
   }
+
   .email {
     left: 60rem;
   }
-  .info h1{
+
+  .info h1 {
     font-size: 3rem;
+  }
+}
+
+@media (max-width: 1150px) {
+  
+  .email {
+    left: 55rem;
+  }
+ 
+}
+
+@media (max-width: 1100px) {
+  .email {
+    display: none;
   }
 }
