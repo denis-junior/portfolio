@@ -21,6 +21,11 @@ body {
   color: #9e9897;
 }
 
+.teste {
+  height: 100vh;
+  background-color: aliceblue;
+}
+
 @media (max-width: 1700px) {
   .email {
     left: 88rem;
@@ -96,7 +101,23 @@ body {
 }
 
 @media (max-width: 1100px) {
-  .email {
+  
+  .email, .accounts {
     display: none;
+  }
+
+  .box-links {
+    display: none;
+  }
+
+  .navbar {
+    background-color: aliceblue;
+  }
+
+}
+
+@media (max-width: 800px) {
+  body {
+    /* background-color: darkcyan; */
   }
 }
