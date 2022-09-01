@@ -1,5 +1,6 @@
 import React from "react";
 import * as FaIcons from "react-icons/fa";
+import { links } from "../../ImportantLinks";
 import "./Footer.css";
 
 const Footer = () => {
@@ -17,7 +18,7 @@ const Footer = () => {
         </a>
       </h3>
       <div className="social-footer-links">
-        <FaIcons.FaLinkedin className="icon-social-link" />
+        <FaIcons.FaLinkedin className="icon-social-link"/>
         <FaIcons.FaInstagram className="icon-social-link" />
         <FaIcons.FaGithub className="icon-social-link" />
       </div>
