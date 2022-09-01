@@ -18,8 +18,7 @@ const About = () => {
       </p>
 
       <p className="description">
-        As for professional experience, I have already worked in a technology{" "}
-        <a
+        As for professional experience, I have already worked in a technology <a
           href="https://www.segup.pa.gov.br"
           className="last-job-link-a"
           target="_blank"
@@ -36,28 +35,28 @@ const About = () => {
       </p>
       <ul className="technologies-ul">
         <li className="technologies-li">
-          <FontAwesomeIcon icon={faCode} className="technologies-li-icon" />{" "}
-          &nbsp; React.JS
+          <FontAwesomeIcon icon={faCode} className="technologies-li-icon" />
+          React.JS
         </li>
         <li className="technologies-li">
-          <FontAwesomeIcon icon={faCode} className="technologies-li-icon" />{" "}
-          &nbsp; Node.JS
+          <FontAwesomeIcon icon={faCode} className="technologies-li-icon" />
+          Node.JS
         </li>
         <li className="technologies-li">
-          <FontAwesomeIcon icon={faCode} className="technologies-li-icon" />{" "}
-          &nbsp; Express.JS
+          <FontAwesomeIcon icon={faCode} className="technologies-li-icon" />
+          Express.JS
         </li>
         <li className="technologies-li">
-          <FontAwesomeIcon icon={faCode} className="technologies-li-icon" />{" "}
-          &nbsp; Typescript
+          <FontAwesomeIcon icon={faCode} className="technologies-li-icon" />
+          Typescript
         </li>
         <li className="technologies-li">
-          <FontAwesomeIcon icon={faCode} className="technologies-li-icon" />{" "}
-          &nbsp; MySQL
+          <FontAwesomeIcon icon={faCode} className="technologies-li-icon" />
+          MySQL
         </li>
         <li className="technologies-li">
-          <FontAwesomeIcon icon={faCode} className="technologies-li-icon" />{" "}
-          &nbsp; Sequelize
+          <FontAwesomeIcon icon={faCode} className="technologies-li-icon" />
+          Sequelize
         </li>
       </ul>
     </div>

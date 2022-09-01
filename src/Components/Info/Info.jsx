@@ -16,7 +16,7 @@ const Content = () => {
             typescript and react.
           </p>
         </div>
-        <Button link={"#about"} >Discover me</Button>
+        <Button className='discover-me' link={"#about"} >Discover me</Button>
       </div>
     </main>
   );
