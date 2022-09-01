@@ -4,9 +4,6 @@ import Info from "./Components/Info/Info";
 import About from "./Components/About/About";
 import Projects from "./Components/Projects/Projects";
 import Contact from "./Components/Contact/Contact";
-import {items} from "./SideBarObjects"
-import * as FaIcons from 'react-icons/fa'
-import * as FiIcons from 'react-icons/fi'
 
 import "./App.css";
 import Footer from "./Components/Footer/Footer";
