@@ -109,7 +109,9 @@ body {
   }
 
   .navbar {
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
+    color: #7B7554;;
+    font-size: 1.2rem;
   }
 }
 
