@@ -124,6 +124,20 @@ body {
   .about {
     width: 80%;
   }
+
+  #about {
+    margin-bottom: 20rem;
+    margin-top: 15rem;
+}
+
+  .projects{
+    margin-bottom: 20rem;
+  }
+
+  .contact{
+    margin-bottom: 2rem;
+  }
+
 }
 
 @media (max-width: 600px) {
