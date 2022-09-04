@@ -39,9 +39,13 @@
 } */
 
 .logo-img {
-  background-color: yellow;
+  /* background-color: yellow; */
+  /* height: 1px; */
 }
 
+.icon-me {
+  max-width: 6rem;
+}
 /* - - - - - - - - - - - - - */
 
 .btn {

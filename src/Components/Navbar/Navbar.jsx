@@ -4,6 +4,7 @@ import { items } from "../../SideBarObjects";
 import * as FaIcons from "react-icons/fa";
 import * as CgIcons from "react-icons/cg";
 import { useState } from "react";
+import me from "../../imgs/me.png"
 
 const Navbar = () => {
   const [sidebar, setSidebar] = useState(false);
@@ -18,7 +19,7 @@ const Navbar = () => {
   return (
     <>
       <nav className="navbar">
-        <div className="logo-img">logo here</div>
+        <div className="logo-img"><img className="icon-me" src={me} alt="" /></div>
         <ul className="box-links">
           <li className="nav-links">
             <a href="#about" className="btn third">
