@@ -18,16 +18,29 @@ const Footer = () => {
         </a>
       </h3>
       <div className="social-footer-links">
-        <FaIcons.FaLinkedin className="icon-social-link"/>
-        <FaIcons.FaInstagram className="icon-social-link" />
-        <FaIcons.FaGithub className="icon-social-link" />
+        <a href={links.linkedin} target="_blank" rel="noopener noreferrer">
+          <FaIcons.FaLinkedin className="icon-social-link" />
+        </a>
+        <a href={links.instagram} target="_blank" rel="noopener noreferrer">
+          <FaIcons.FaInstagram className="icon-social-link" />
+        </a>
+        <a href={links.github} target="_blank" rel="noopener noreferrer">
+          <FaIcons.FaGithub className="icon-social-link" />
+        </a>
       </div>
 
       <div className="made-for">
         <p className="thank-text">
-            Made with &#60;3 by <a style={{marginLeft: 0}} className="footer-link" href="https://denis-junior.netlify.app">Denis Junior</a>
+          Made with &#60;3 by{" "}
+          <a
+            style={{ marginLeft: 0 }}
+            className="footer-link"
+            href="https://denis-junior.netlify.app"
+          >
+            Denis Junior
+          </a>
         </p>
-        </div>
+      </div>
     </footer>
   );
 };
